@@ -3,10 +3,11 @@ package com.learn.slide3.box;
 public class BoxTestRunner {
 
     public static void main(String[] args) {
-        Box box = new Box();
-        box.width = 10.5;
-        box.length = 11;
-        box.height = 3;
+        Box box = new Box(10.5, 11, 3);
+
+        box.setWidth(10);
+        System.out.println("ყუთის სიგრძე არის " + box.getWidth());
+
         System.out.println("ყუთის მოცულობა " + box.volume());
         System.out.println("ყუთში ჩაეტევა " + box.capacity(1000) + " წყალი");
         box.printInfo();
