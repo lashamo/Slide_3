@@ -28,4 +28,10 @@ public class Country {
     public void setCapital(City capital) {
         this.capital = capital;
     }
+
+    public void printInfo() {
+        System.out.println("სახელი: " + name);
+        System.out.println("დედაქალაქის სახელი: " + capital.getName());
+        System.out.println("დედაქალაქის მოსახლეობა: " + capital.getPopulation());
+    }
 }
