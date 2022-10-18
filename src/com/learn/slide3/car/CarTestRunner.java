@@ -11,6 +11,13 @@ public class CarTestRunner {
         car1.color = "Black";
         car1.year = 2022;
 
+        Car car2 = new Car();
+        car2.model = "Mercedes";
+        car2.color = "white";
+        car2.year = 2021;
+
+        Car.numberOfDoors = 4;
+
         Box box;
         BoxTestRunner boxTestRunner;
     }

@@ -7,4 +7,6 @@ public class Car {
     String color;
 
     int year;
+
+    static int numberOfDoors;
 }
