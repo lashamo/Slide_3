@@ -1,7 +1,7 @@
-package com.learn.slide3.car;
+package com.learn.slide3.encapsulation.car;
 
-import com.learn.slide3.box.Box;
-import com.learn.slide3.box.BoxTestRunner;
+import com.learn.slide3.encapsulation.box.Box;
+import com.learn.slide3.encapsulation.box.BoxTestRunner;
 
 public class CarTestRunner {
 

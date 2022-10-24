@@ -1,4 +1,4 @@
-package com.learn.slide3.car;
+package com.learn.slide3.encapsulation.car;
 
 public class Car {
 

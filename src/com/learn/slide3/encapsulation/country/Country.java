@@ -1,4 +1,4 @@
-package com.learn.slide3.country;
+package com.learn.slide3.encapsulation.country;
 
 public class Country {
 

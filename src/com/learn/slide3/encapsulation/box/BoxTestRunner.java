@@ -1,4 +1,4 @@
-package com.learn.slide3.box;
+package com.learn.slide3.encapsulation.box;
 
 public class BoxTestRunner {
 
